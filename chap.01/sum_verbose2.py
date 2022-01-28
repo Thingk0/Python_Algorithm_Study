@@ -1,4 +1,4 @@
-# Find the sum of integers from a to b - 1
+# Find the sum of integers from a to b - 2
 
 print("Find the sum of integers from a to b.")
 a = int(input("Enter the integer a : "))
@@ -8,11 +8,11 @@ if a > b:
     a, b = b, a
 
 sum = 0
-for i in range(a, b+1):
-    if i < b:
-        print(f"{i} + ", end='')
-    else:
-        print(f"{i} = ", end='')
+for i in range(a,b):
+    print(f"{i} + ", end='')
     sum += i
+
+print(f"{b} = ", end='')
+sum += b
 
 print(sum)
