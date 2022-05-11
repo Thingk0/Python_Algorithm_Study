@@ -1,4 +1,7 @@
-# Find the maximum value of three integers.
+# Do it! 실습 1-2
+# 세 정수의 최댓값 구하기
+
+# 22.05.08 Check
 
 def max3(a, b, c):
     maximum = a
@@ -9,7 +12,7 @@ def max3(a, b, c):
     if c > maximum:
         maximum = c
 
-    return maximum
+    return maximum  # 최댓값 반환
 
 
 print(f"max3(3, 2, 1) = {max3(3,2,1)}")
